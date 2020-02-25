@@ -1,7 +1,7 @@
 
 
   -  http://localhost:3000/  React component based on a mockup
-  -   http://localhost:3000/task2  React component with an API
+  -  http://localhost:3000/task2  React component with an API
  
 
 # Stack used 
@@ -11,7 +11,7 @@
   - react hooks
 
 
-1 task - React component based on a mockup:
+React component based on a mockup:
   - created a container called Home
   - created a ItemListComponent to map over and display our items
   - asynchronous loading container with Loadable util
@@ -19,7 +19,7 @@
   - Created Three Modals, probably for redability purposes should have set them in the independent container, was a bit busy this week, but still keep in mind
   - As an another edge case, I think it makes sense to add validation so we can`t save empty items.
  
-2 task - React component with an API:
+RReact component with an API:
   - created a container called SecondTaskPage
   - I created a store with intial Values for fetched data, and then managed them with actions such as: fetchData, setError, setData
   - added request.js helper to fetch data and reuse it in the future
